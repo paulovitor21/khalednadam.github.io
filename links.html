@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <title>Khaled Nadam</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Khaled Nadam</a></h1>
+        </div>
+        <div class="mode-btn"><img class="mode-icon" onclick="darkMode()" src="monitor-levels.png" alt=""></div>
+        <nav class="desk-bar">
+            <div class="mode-btn-desk"><img class="mode-icon" onclick="darkMode()" src="monitor-levels.png" alt=""></div>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Links</a></li>
+            </ul>
+        </nav>
+        <!-- The overlay -->
+        <div id="phone-nav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <div class="overlay-links">
+                    <a href="index.html#about-me" class="menu-item" onmouseup="closeNav()">About me</a>
+                    <a href="index.html#work" class="menu-item" onmouseup="closeNav()">Work</a>
+                    <a href="index.html#skills" class="menu-item" onmouseup="closeNav()">Skills</a>
+                    <a href="index.html#contact" class="menu-item" onmouseup="closeNav()">Contact</a>
+                    <a href="links.html" class="menu-item" onmouseup="closeNav()">Links</a>
+                </div>
+                <div class="overlay-icons">
+                    <a href="https://instagram.com/software_journey1" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/khaled_nadam" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/khaled-nadam-2b7693150/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/khalednadam" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <span class="bars" onclick="openNav()"><i class="fas fa-bars"></i></span>
+    </header>
+    <main class="link-main">
+        <h2 class="title">Links</h2>
+            <div>
+            <div class="nuphy link">
+                <a href="https://nuphy.com?sca_ref=1289651.Sw0cFIjsOi" target="_blank"><h3>Nuphy 5% off</h3></a>
+            </div>
+            <div class="link">
+                <a href="https://www.amazon.com/Sony-WF-XB700-Headphones-Bluetooth-Technology/dp/B085VQFZ91/ref=nav_ya_signin?crid=3UBA98R3UEUHX&keywords=sony%2Bwf-xb700%2Bextra%2Bbass%2Bearbuds&qid=1644428588&sprefix=sony%2Bwf-x%2Caps%2C237&sr=8-3&th=1&returnFromLogin=1" target="_blank"><h3>Sony WF-XB700</h3></a>
+            </div>
+            <div class="link">
+                <a href="https://www.amazon.com/BenQ-GW2780-Optimized-Brightness-Technology/dp/B072XFFQ4K/ref=sr_1_1?crid=1FPDAUKQRDLY6&keywords=benq+gw2780+27+inch&qid=1644428819&sprefix=benq+gw2780+%2Caps%2C251&sr=8-1" target="_blank"><h3>BenQ GW2780</h3></a>
+            </div>
+            <div class=" link">
+                <a href="https://deltahub.io/collections/all-products/products/carpio-2" target="_blank"><h3>DeltaHub Carpio 2.0</h3></a>
+            </div>
+            <div class=" link">
+                <a href="https://deltahub.io/collections/all-products/products/minimalistic-desk-pad" target="_blank"><h3>DeltaHub minimalistic desk pad</h3></a>
+            </div>
+            <div class=" link">
+                <a href="https://fifinemicrophone.com/products/fifine-k658-usb-dynamic-microphone" target="_blank"><h3>FIFINE K658</h3></a>
+            </div>
+            <!-- <div class=" link">
+                <a href="" target="_blank"><h3></h3></a>
+            </div>
+            <div class=" link">
+                <a href="" target="_blank"><h3></h3></a>
+            </div>
+            <div class=" link">
+                <a href="" target="_blank"><h3></h3></a>
+            </div> -->
+        </div>
+    </main>
+    <footer id="contact" class="link-footer">
+        <h4>Mail</h4>
+        <p>hello@khalednadam.com</p>
+        <div class="footer-sm">
+            <a href="https://instagram.com/software_journey1" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/khaled_nadam" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/khaled-nadam-2b7693150/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/khalednadam" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="cr">copyright Khaled Nadam 2022</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/29caa79a57.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
